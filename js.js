@@ -10,3 +10,7 @@ function green()
 {
   document.body.style.backgroundColor = "green";
 }
+function white()
+{
+  document.body.style.backgroundColor = "white";
+}
