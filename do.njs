@@ -1,7 +1,6 @@
 #!/usr/local/bin/node
-
-var querystring = require('querystring');
 var fs = require('fs');
+var querystring = require('querystring');
 var param = querystring.parse(process.env.QUERY_STRING);
 var data =fs.readFileSync('name.json','utf-8');
 
@@ -16,5 +15,5 @@ console.log('Content-type: text/html; charset=utf-8\n');
 if (student ==''||param.id ==''){
   console.log('<h1>not found</h1>');}
 else{
-  console.log('<h1>'+student+'4ni'+</h1>);
+  console.log('<h1>'+student+' 4ni</h1>');
 }
