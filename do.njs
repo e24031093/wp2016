@@ -13,7 +13,7 @@ JSON.parse(data, function(k,v){
 
 console.log('Content-type: text/html; charset=utf-8\n');
 if (student ==''||param.id ==''){
-  console.log('<h1>你輸入錯誤!!  你全家都輸入錯誤!!</h1>');}
+  console.log('<h1>抱歉,'+param.id+'與狗不得入內</h1>');}
 else{
   console.log('<h1>'+student+' 4ni</h1>');
 }
