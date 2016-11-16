@@ -7,13 +7,13 @@ var data =fs.readFileSync('name.json','utf-8');
 
 var student = '';
 JSON.parse(data, function(k,v){
-  if (param.user_name ==k){
+  if (param.id ==k){
     student = v;
   }
 });
 
 console.log('Content-type: text/html; charset=utf-8\n');
-if (student ==''||param.user_name ==''){
+if (student ==''||param.id ==''){
   console.log('<h1>not found</h1>');}
 else{
   console.log('<h1>'+student+'4ni'+</h1>);
